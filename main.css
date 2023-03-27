@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chip{
+    width: 80px;
+}
+.card{
+    background-color: #333;
+    padding: 45px;
+    border-radius: 25px;
+    box-shadow: 0px 15px 50px silver;
+}
+.card-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+#bankcardimg{
+    width: 80px;
+}
+.card-div input{
+    padding: 12px 24px;
+    margin: 0 8px;
+    font-size: 18px;
+}
